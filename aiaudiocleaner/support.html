@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — AI Audio Cleaner</title>
+<meta name="description" content="Support and FAQ for AI Audio Cleaner, an iOS app by Crocolab that removes background noise from audio files on-device.">
+<meta name="robots" content="index, follow">
+<style>
+:root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --fg-secondary: #6b6b70;
+    --accent: #007aff;
+    --rule: #e5e5ea;
+    --box-bg: #f2f2f7;
+    --code-bg: #f2f2f7;
+    --max-width: 720px;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #000000;
+        --fg: #f2f2f7;
+        --fg-secondary: #98989d;
+        --accent: #0a84ff;
+        --rule: #2c2c2e;
+        --box-bg: #1c1c1e;
+        --code-bg: #1c1c1e;
+    }
+}
+* { box-sizing: border-box; }
+html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+}
+header {
+    margin-bottom: 32px;
+}
+header .eyebrow {
+    color: var(--fg-secondary);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 12px;
+}
+h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px;
+}
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    margin: 40px 0 12px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 24px 0 8px;
+}
+p {
+    margin: 0 0 16px;
+}
+ul {
+    margin: 0 0 16px;
+    padding-left: 22px;
+}
+li {
+    margin-bottom: 6px;
+}
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.lede {
+    font-size: 19px;
+    color: var(--fg-secondary);
+    margin-bottom: 0;
+}
+.contact-card {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 24px 0 8px;
+}
+.contact-card h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+.contact-card p {
+    margin-bottom: 8px;
+}
+.contact-card p:last-child {
+    margin-bottom: 0;
+}
+details {
+    border-bottom: 1px solid var(--rule);
+    padding: 14px 0;
+}
+details:first-of-type {
+    border-top: 1px solid var(--rule);
+}
+summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    list-style: none;
+    padding-right: 24px;
+    position: relative;
+    user-select: none;
+}
+summary::-webkit-details-marker { display: none; }
+summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--fg-secondary);
+    transition: transform 0.15s ease;
+}
+details[open] summary::after {
+    content: "−";
+}
+details > *:not(summary) {
+    margin-top: 12px;
+}
+code {
+    background: var(--code-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+    font-size: 0.9em;
+}
+footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    color: var(--fg-secondary);
+    font-size: 14px;
+}
+footer a {
+    color: var(--fg-secondary);
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+    <div class="eyebrow">AI Audio Cleaner</div>
+    <h1>Support</h1>
+    <p class="lede">Need help with the app? Start here.</p>
+</header>
+
+<div class="contact-card">
+    <h2>Contact us</h2>
+    <p><strong>Email:</strong> <a href="mailto:crocolab.support@gmail.com">crocolab.support@gmail.com</a></p>
+    <p>We read every message and aim to reply within 5 business days. When reporting a problem, please include your iOS version, iPhone model, and a short description of what happened.</p>
+</div>
+
+<h2>About the app</h2>
+<p>AI Audio Cleaner removes background noise from audio recordings using an on-device AI model (DeepFilterNet). Pick an audio file, tap a single button, get a cleaned version back. Everything runs locally on your iPhone — no internet connection or account required.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+    <summary>Which audio formats are supported?</summary>
+    <p>Any audio format that iOS can natively decode: <code>.m4a</code>, <code>.mp3</code>, <code>.wav</code>, <code>.aac</code>, <code>.caf</code>, <code>.aif</code>/<code>.aiff</code>, and most files exported from voice memos, meetings, or screen recordings. The cleaned file is exported as <code>.wav</code> to preserve quality.</p>
+</details>
+
+<details>
+    <summary>Is there a file length limit?</summary>
+    <p>No hard limit. The app processes files in small chunks so it can handle anything from a 10-second voice memo to a multi-hour interview without running out of memory. Longer files just take proportionally longer to process.</p>
+</details>
+
+<details>
+    <summary>Does the app work offline?</summary>
+    <p>Yes — entirely. All processing happens on your iPhone using Apple's Neural Engine. You can use the app in airplane mode. No data is ever sent to our servers because we have no servers.</p>
+</details>
+
+<details>
+    <summary>How is my privacy protected?</summary>
+    <p>Your audio never leaves your device. We collect no analytics, no personal data, and use no third-party tracking SDKs. See the full <a href="privacy.html">Privacy Policy</a> for details.</p>
+</details>
+
+<details>
+    <summary>What does the Pro upgrade unlock?</summary>
+    <p>The free tier lets you clean 5 files per calendar month. The one-time Pro purchase removes that limit, so you can clean as many files as you like. There is no subscription — you pay once and it stays unlocked on every device signed in to your Apple ID.</p>
+</details>
+
+<details>
+    <summary>How do I restore my Pro purchase on a new iPhone?</summary>
+    <p>Open the app, go to <strong>Settings → Restore Purchase</strong>, and sign in with the same Apple ID you used originally. Apple's StoreKit handles the rest. If the restore doesn't go through, please contact us with your transaction ID (from your Apple receipt email).</p>
+</details>
+
+<details>
+    <summary>Why does the cleaned file sound different from what I expected?</summary>
+    <p>The AI model is tuned for human voice. It works best on speech recordings — interviews, voice memos, podcasts, lectures. On music or recordings without speech it may suppress detail it considers "noise". Try lowering the <strong>Denoise Strength</strong> in Settings if cleaning is too aggressive for your source material.</p>
+</details>
+
+<details>
+    <summary>Where are the cleaned files stored?</summary>
+    <p>Cleaned files are kept in the app's local Documents folder and listed in the <strong>History</strong> tab (last 10 cleanups). You can share or save them elsewhere via the system Share Sheet. Deleting an entry from History or deleting the app removes them.</p>
+</details>
+
+<details>
+    <summary>Processing seems slow / the app heats up. Is that normal?</summary>
+    <p>The AI model uses your iPhone's Neural Engine, which is efficient but does generate some heat on long files. As a rule of thumb, processing takes roughly 10–20% of the file's duration on recent iPhones. If you see significantly worse performance, please report it with your device model so we can investigate.</p>
+</details>
+
+<details>
+    <summary>The app crashed / a file failed to process. What should I do?</summary>
+    <p>Please email us at <a href="mailto:crocolab.support@gmail.com">crocolab.support@gmail.com</a> with: (1) your iPhone model, (2) your iOS version, (3) the format and approximate length of the file, and (4) what you were doing when it crashed. If possible, attach a short sample that reproduces the issue.</p>
+</details>
+
+<details>
+    <summary>Do you offer refunds?</summary>
+    <p>Refunds for App Store purchases are handled by Apple, not by us. Use Apple's <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> to request one. If you believe the app has a defect, write to us first — we'd rather fix the problem than have you walk away.</p>
+</details>
+
+<details>
+    <summary>How can I request a feature?</summary>
+    <p>Send your idea to <a href="mailto:crocolab.support@gmail.com">crocolab.support@gmail.com</a>. We read every suggestion and prioritize the ones that come up most often.</p>
+</details>
+
+<footer>
+    <p>&copy; 2026 Crocolab &middot; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+</main>
+</body>
+</html>
